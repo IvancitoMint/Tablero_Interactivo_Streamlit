@@ -19,7 +19,7 @@ def sumar_lista(lista:list) -> float:
         s += n
     return s
 
-def producto(nombre_producto = "", cantidad = 1, precio = 1) -> float:
+def producto(cantidad = 1, precio = 1) -> float:
     return cantidad * precio
 
 def numeros_pares_e_impares(lista:list) -> list:
